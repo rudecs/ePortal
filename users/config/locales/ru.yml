@@ -1,0 +1,7 @@
+ru:
+  invitation_mailer:
+    invite:
+      subject: Приглашение присоединиться к клиенту
+      content: "%{sender} приглашает Вас присоединиться к клиенту '%{client}' в роли '%{role}'."
+      link: Присоединиться
+      joinable: к клиенту

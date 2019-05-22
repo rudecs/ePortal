@@ -1,0 +1,12 @@
+---
+
+develop:
+  concurrency: 10
+
+production:
+  concurrency: 100
+
+:queues:
+  - default
+  - events
+  - [playbooks, 2]

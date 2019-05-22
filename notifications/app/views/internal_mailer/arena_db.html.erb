@@ -1,0 +1,21 @@
+<h1>
+  Новая заявка облачной аналитической СУБД Arenadata DB.
+</h1>
+<p>
+  Обращение зарегистрировано <%= @nr.created_at %>
+</p>
+<h2>
+  Пользователь указал следующие данные:
+</h2>
+<p>
+  Имя: <%= @nr.provided_data['sender_name'] %>
+</p>
+<p>
+  Эл.почта: <%= @nr.emails.join(', ') %>
+</p>
+<p>
+  Телефон: <%= @nr.provided_data['arenadb_phone'] %>
+</p>
+<p>
+  Параметры БД: <%= @nr.provided_data['arenadb_params'] %>
+</p>

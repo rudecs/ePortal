@@ -1,0 +1,14 @@
+<h1>User#invite</h1>
+<p>
+  <%= t(
+    '.content',
+    sender: @from,
+    client: @invitation.client.name,
+    role: @invitation.role.name
+  ) %>
+</p>
+
+<p>
+  <a href=<%="http://#{ENV['PORTAL_BASE_URL'].presence || 'staging.decs.online'}/registration?token=#{@invitation.token}&email=#{@invitation.email}"%> target='_blank'><%= t('.link') %></a>
+  <%= t('.joinable') %>.
+</p>

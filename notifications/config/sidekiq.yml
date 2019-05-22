@@ -1,0 +1,15 @@
+---
+# :concurrency: 2
+
+# production:
+#   :concurrency: 8
+
+# use runners for each queue?
+# :queues:
+#   - ['sms', 2]
+#   - ['default', 2]
+#   - ['email', 1]
+
+:queues:
+  - default
+  - mailers

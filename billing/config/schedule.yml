@@ -1,0 +1,6 @@
+get_usage:
+  cron: "6 */1 * * * " # execute at minute 6 every hour
+  class: "GetUsageRecordsJob"
+  queue: default
+  active_job: true
+  args: ["Charge::CloudResource"]

@@ -1,0 +1,8 @@
+User#invite
+<%= t(
+  '.content',
+  sender: @from,
+  client: @invitation.client.name,
+  role: @invitation.role.name
+) %>
+<%= t('.link') %> <%= t('.joinable') %>: <%= "http://#{ENV['PORTAL_BASE_URL'].presence || 'staging.decs.online'}/registration?token=#{@invitation.token}&email=#{@invitation.email}" %>

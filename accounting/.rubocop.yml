@@ -1,0 +1,20 @@
+# inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'vendor/**/*'
+    - 'Gemfile'
+    - 'config/**/*'
+    - 'bin/**/*'
+    - 'Rakefile'
+    - 'config.ru'
+
+Rails:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false

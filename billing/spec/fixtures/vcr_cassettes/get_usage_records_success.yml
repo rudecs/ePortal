@@ -1,0 +1,32 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:8888/api/usage/v1/usages?from=2018-05-07+10%3A00%3A00+UTC&hourly=true&sort_key=product_id&to=2018-05-07+10%3A59%3A59+UTC
+    headers:
+      User-Agent:
+      - Faraday v0.15.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 07 May 2018 11:33:46 GMT
+      cache-control:
+      - no-cache,no-store,max-age=0,must-revalidate
+      last-modified:
+      - Mon, 07 May 2018 11:33:47 GMT
+      Content-Type:
+      - text/json; charset=UTF-8
+      content-length:
+      - '0'
+      connection:
+      - Close
+    body: |2+
+
+      [{"client_id":111,"product_id":222,"product_instance_id":333,"machines":{"memory": 4000,"cpu": 10},"start_at":"2018-04-05 13:00:00 +0300","end_at":"2018-04-05 13:59:59 +0300"},
+      {"client_id":111,"product_id":222,"product_instance_id":444,"machines":{"memory": 4000,"cpu": 10},"start_at":"2018-04-05 13:00:00 +0300","end_at":"2018-04-05 13:59:59 +0300"}]
+    http_version:
+  recorded_at: Mon, 07 May 2018 11:33:47 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,17 @@
+en:
+  activerecord:
+    errors:
+      models:
+        invitation:
+          attributes:
+            role:
+              role_in_client: don't belong to client
+        user:
+          attributes:
+            password_reset_code:
+              expired: expired
+            phone:
+              confirmation_period_expired: confirmation period expired
+              already_confirmed: already confirmed
+            phone_confirmation_code:
+              not_expired: not expired

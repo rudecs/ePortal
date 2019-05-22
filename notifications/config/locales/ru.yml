@@ -1,0 +1,18 @@
+ru:
+  subjects:
+    email_confirmation: Подтвердите почтовый адрес
+    password_reset: Запрос на изменение пароля
+    phone_number_verification: Подтвердите номер телефона
+    two_factor_authentication:
+    successful_registration:
+    create_product:
+    resize_product:
+    turn_off_product:
+    delete_product:
+    expenses_in_period:
+    successful_payment:
+    balance_threshold:
+    create_ticket:
+    ticket_response:
+    bonus_income:
+    successful_bonus_conversion:

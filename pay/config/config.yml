@@ -1,0 +1,22 @@
+payu: &payu
+  payu:
+    host: https://secure.payu.ru/order/lu.php
+    desc: 'Пополнение баланса'
+
+robokassa: &robokassa
+  robokassa:
+    host: https://auth.robokassa.ru/Merchant/Index.aspx
+    login: 'digitalenergy'
+    desc: 'Пополнение баланса'
+
+production:
+  <<: *payu
+  <<: *robokassa
+
+test:
+  <<: *payu
+  <<: *robokassa
+
+development:
+  <<: *payu
+  <<: *robokassa

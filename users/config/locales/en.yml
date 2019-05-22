@@ -1,0 +1,7 @@
+en:
+  invitation_mailer:
+    invite:
+      subject: You've been invited to join client
+      content: "%{sender} invited you as '%{role}' on '%{client}' client."
+      link: Join
+      joinable: client

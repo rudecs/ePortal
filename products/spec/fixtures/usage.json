@@ -1,0 +1,55 @@
+[
+  {
+    "client_id": 42,
+    "end_at": "2018-10-01 23:59:59 +0000",
+    "machines": {
+      "memory": 2048,
+      "resources_count": 1,
+      "vcpus": 2,
+      "image_name": "Windows 2012r2 Standard"
+    },
+    "product_id": 2,
+    "product_instance_id": 55,
+    "resource_id": 219,
+    "start_at": "2018-10-01 23:00:00 +0000"
+  },
+  {
+    "client_id": 42,
+    "end_at": "2018-10-01 23:59:59 +0000",
+    "machines": {
+      "memory": 512,
+      "resources_count": 1,
+      "vcpus": 1,
+      "image_name": "Windows 2012r2 Standard"
+    },
+    "product_id": 2,
+    "product_instance_id": 55,
+    "resource_id": 219,
+    "start_at": "2018-10-01 23:00:00 +0000"
+  },
+  {
+    "client_id": 42,
+    "end_at": "2018-10-01 23:59:59 +0000",
+    "machines": {
+      "memory": 18432,
+      "resources_count": 1,
+      "vcpus": 6,
+      "image_name": "Windows 2012r2 Standard"
+    },
+    "product_id": 2,
+    "product_instance_id": 55,
+    "resource_id": 219,
+    "start_at": "2018-10-01 23:00:00 +0000"
+  },
+  {
+    "client_id": 42,
+    "end_at": "2018-10-01 23:59:59 +0000",
+    "product_id": 2,
+    "product_instance_id": 55,
+    "resource_id": 239,
+    "snapshots": {
+      "resources_count": 1
+    },
+    "start_at": "2018-10-01 23:00:00 +0000"
+  }
+]

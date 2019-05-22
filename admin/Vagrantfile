@@ -1,0 +1,14 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+require 'yaml'
+
+railsapp = 'admin'
+ip = YAML.load_file('config/diplomat.yml')['development'][railsapp]['address']
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "Kroid/rails"
+  config.vm.box_version = "0.2"
+  config.vm.hostname = railsapp
+  config.vm.network "private_network", ip: ip
+end

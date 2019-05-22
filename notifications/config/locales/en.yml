@@ -1,0 +1,18 @@
+en:
+  subjects:
+    email_confirmation: Verify your email
+    password_reset: Your password reset notification
+    phone_number_verification: Verify your phone number
+    two_factor_authentication:
+    successful_registration:
+    create_product:
+    resize_product:
+    turn_off_product:
+    delete_product:
+    expenses_in_period:
+    successful_payment:
+    balance_threshold:
+    create_ticket:
+    ticket_response:
+    bonus_income:
+    successful_bonus_conversion:

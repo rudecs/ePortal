@@ -1,0 +1,9 @@
+---
+:queues:
+  - [default, 1]
+  - [usage_processing, 1]
+
+:concurrency: 8
+
+production:
+  :concurrency: 8

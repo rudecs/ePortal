@@ -1,0 +1,31 @@
+default: &default
+  resources:
+    address: 192.168.10.101
+    port: 3000
+  usage:
+    address: 192.168.10.102
+    port: 3000
+  products:
+    address: 192.168.10.103
+    port: 3000
+  billing:
+    address: 192.168.10.104
+    port: 3000
+  users:
+    address: 192.168.10.105
+    port: 3000
+  accounting:
+    address: 192.168.10.106
+    port: 3000
+  notifications:
+    address: 192.168.10.107
+    port: 3000
+  pay:
+    address: 192.168.10.108
+    port: 3000
+
+development:
+  <<: *default
+
+test:
+  <<: *default
