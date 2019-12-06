@@ -116,7 +116,7 @@ GEM
       slop (~> 3.4)
     pry-nav (0.2.4)
       pry (>= 0.9.10, < 0.11.0)
-    puma (3.11.4)
+    puma (3.12.2)
     rack (2.0.5)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -225,7 +225,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   pry
   pry-nav
-  puma (~> 3.7)
+  puma (~> 3.12)
   rails (~> 5.1.5)
   rspec-rails (~> 3.7)
   sentry-raven

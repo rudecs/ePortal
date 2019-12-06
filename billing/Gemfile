@@ -14,7 +14,7 @@ gem 'grape'
 gem 'diplomat'
 gem 'interactor-rails', '~> 2.0'
 gem 'pg', '>= 0.18', '< 2.0'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 gem "sentry-raven"
 gem 'sidekiq'
 gem "sidekiq-cron", "~> 0.6.3"
