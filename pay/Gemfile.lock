@@ -141,7 +141,7 @@ GEM
       ast (~> 2.4.0)
     pg (1.0.0)
     powerpack (0.1.2)
-    puma (3.11.4)
+    puma (3.12.2)
     rack (2.0.5)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -268,7 +268,7 @@ DEPENDENCIES
   hashie
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
-  puma (~> 3.11)
+  puma (~> 3.12)
   rails (~> 5.2.0)
   rspec-rails (~> 3.7, >= 3.7.2)
   rubocop (~> 0.55.0)
