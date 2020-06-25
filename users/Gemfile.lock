@@ -127,7 +127,7 @@ GEM
       activesupport (>= 3.0)
       phony (> 2.15)
     puma (3.11.4)
-    rack (2.0.5)
+    rack (2.2.3)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-protection (2.0.1)
