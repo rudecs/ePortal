@@ -19,7 +19,7 @@ gem 'hashie'
 gem 'jbuilder'
 
 gem 'pg'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3'
 
 gem 'searchlight'
 gem "sentry-raven"
